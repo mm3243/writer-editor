@@ -1,5 +1,5 @@
 function ShowLength(str, resultid) {
-    // str = str.replace("\n", "");
+    str = str.replace(/\n/g, "");
     document.getElementById(resultid).innerHTML = str.length + "文字";
 }
 
